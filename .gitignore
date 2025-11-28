@@ -1,0 +1,23 @@
+# Ignore Visual Studio working folder
+.vs/
+*.vscode/
+
+# Ignore design-time build caches
+*.db
+*_i.db
+*_i.db-shm
+*_i.db-wal
+*.dbcache
+*.dbcache.v*
+*.ide
+*.vsidx
+*.suo
+*.user
+*.userosscache
+*.userprefs
+*.cache
+*.tmp
+*.tlog
+
+# Ignore backup files from VS
+*.backup.json
