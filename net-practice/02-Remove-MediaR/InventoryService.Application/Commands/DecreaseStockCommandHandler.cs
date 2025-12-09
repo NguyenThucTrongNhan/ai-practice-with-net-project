@@ -1,46 +1,26 @@
-﻿using InventoryService.Application.Interfaces;
-using InventoryService.Application.Services;
-using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using InventoryService.Application.Dispatch;
+using InventoryService.Application.Interfaces;
 
 namespace InventoryService.Application.Commands
 {
-    public class DecreaseStockCommandHandler : IRequestHandler<DecreaseStockCommand, Unit>
+    public class DecreaseStockCommandHandler : ICommandHandler<DecreaseStockCommand>
     {
         private readonly IStockRepository _repo;
-        private readonly IUnitOfWork _uow;
-        private readonly IDomainEventDispatcher _domainEventDispatcher;
 
-        public DecreaseStockCommandHandler(
-            IStockRepository repo,
-            IUnitOfWork uow,
-            IDomainEventDispatcher domainEventDispatcher)
+        public DecreaseStockCommandHandler(IStockRepository repo)
         {
             _repo = repo;
-            _uow = uow;
-            _domainEventDispatcher = domainEventDispatcher;
         }
 
-        public async Task<Unit> Handle(DecreaseStockCommand request, CancellationToken cancellationToken)
+        public async Task HandleAsync(DecreaseStockCommand command, CancellationToken ct = default)
         {
-            var item = await _repo.GetByIdAsync(request.ItemId, cancellationToken)
+            var item = await _repo.GetByIdAsync(command.ItemId, ct)
                        ?? throw new KeyNotFoundException("Item not found");
 
-            item.Decrease(request.Amount);
+            item.Decrease(command.Amount);
 
-            await _repo.UpdateAsync(item, cancellationToken);
-
-            // Persist changes (Unit of Work)
-            await _uow.SaveChangesAsync(cancellationToken);
-
-            // After saving to DB, dispatch domain events
-            await _domainEventDispatcher.DispatchAndClearEventsAsync(item, cancellationToken);
-
-            return Unit.Value;
+            await _repo.UpdateAsync(item, ct);
+            // note: Do not call SaveChanges here; UoW will commit later
         }
     }
 }

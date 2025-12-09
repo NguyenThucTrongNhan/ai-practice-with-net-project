@@ -1,34 +1,37 @@
 ﻿using InventoryService.Application.Interfaces;
-using InventoryService.Domain.Common;
-using MediatR;
+using InventoryService.Domain.Events;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Microsoft.Extensions.Logging;
+using System.Diagnostics;
 
 namespace InventoryService.Application.Services
 {
     public class DomainEventDispatcher : IDomainEventDispatcher
     {
-        private readonly IMediator _mediator;
+        private readonly IServiceProvider _services;
 
-        public DomainEventDispatcher(IMediator mediator)
+        public DomainEventDispatcher(IServiceProvider services)
         {
-            _mediator = mediator;
+            _services = services;
         }
 
-        public async Task DispatchAndClearEventsAsync(AggregateRoot aggregateRoot, CancellationToken ct = default)
+        public async Task DispatchAsync(IDomainEvent domainEvent, CancellationToken ct = default)
         {
-            var events = aggregateRoot.DomainEvents.ToArray();
-            foreach (var @event in events)
-            {
-                // publish via MediatR; handlers in Application will respond
-                await _mediator.Publish(@event, ct);
-            }
+            // Resolve handlers for this specific event type
+            var handlerType = typeof(IDomainEventHandler<>).MakeGenericType(domainEvent.GetType());
+            var handlers = _services.GetServices(handlerType);
 
-            aggregateRoot.ClearDomainEvents();
+            foreach (var handler in handlers)
+            {
+                var method = handlerType.GetMethod("HandleAsync");
+                await (Task)method.Invoke(handler, new object[] { domainEvent, ct });
+            }
+        }
+
+        public async Task DispatchAllAsync(IEnumerable<IDomainEvent> events, CancellationToken ct = default)
+        {
+            foreach (var evt in events)
+                await DispatchAsync(evt, ct);
         }
     }
 }

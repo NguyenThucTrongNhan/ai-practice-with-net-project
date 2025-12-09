@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\2025\\Projects\\ai-practice-with-net-project\\net-practice\\01\\InventoryService.Domain\\InventoryService.Domain.csproj": {}
+    "D:\\2025\\Projects\\ai-practice-with-net-project\\net-practice\\02-Remove-MediaR\\InventoryService.Domain\\InventoryService.Domain.csproj": {}
   },
   "projects": {
-    "D:\\2025\\Projects\\ai-practice-with-net-project\\net-practice\\01\\InventoryService.Domain\\InventoryService.Domain.csproj": {
+    "D:\\2025\\Projects\\ai-practice-with-net-project\\net-practice\\02-Remove-MediaR\\InventoryService.Domain\\InventoryService.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\2025\\Projects\\ai-practice-with-net-project\\net-practice\\01\\InventoryService.Domain\\InventoryService.Domain.csproj",
+        "projectUniqueName": "D:\\2025\\Projects\\ai-practice-with-net-project\\net-practice\\02-Remove-MediaR\\InventoryService.Domain\\InventoryService.Domain.csproj",
         "projectName": "InventoryService.Domain",
-        "projectPath": "D:\\2025\\Projects\\ai-practice-with-net-project\\net-practice\\01\\InventoryService.Domain\\InventoryService.Domain.csproj",
+        "projectPath": "D:\\2025\\Projects\\ai-practice-with-net-project\\net-practice\\02-Remove-MediaR\\InventoryService.Domain\\InventoryService.Domain.csproj",
         "packagesPath": "C:\\Users\\nhan.nguyen\\.nuget\\packages\\",
-        "outputPath": "D:\\2025\\Projects\\ai-practice-with-net-project\\net-practice\\01\\InventoryService.Domain\\obj\\",
+        "outputPath": "D:\\2025\\Projects\\ai-practice-with-net-project\\net-practice\\02-Remove-MediaR\\InventoryService.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -51,12 +51,6 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "dependencies": {
-            "MediatR": {
-              "target": "Package",
-              "version": "[14.0.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

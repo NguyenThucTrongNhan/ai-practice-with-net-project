@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using MediatR;
 using InventoryService.Application.Commands;
+using InventoryService.Application.Dispatch;
 
 namespace InventoryService.API.Controllers;
 
@@ -8,37 +8,35 @@ namespace InventoryService.API.Controllers;
 [Route("api/[controller]")]
 public class StockController : ControllerBase
 {
-    private readonly IMediator _mediator;
+    private readonly ICommandDispatcher _dispatcher;
 
-    public StockController(IMediator mediator)
-    {
-        _mediator = mediator;
-    }
+    public StockController(ICommandDispatcher dispatcher) => _dispatcher = dispatcher;
 
     [HttpPost("{id:guid}/decrease")]
-    public async Task<IActionResult> Decrease(Guid id, [FromBody] DecreaseRequest request)
+    public async Task<IActionResult> Decrease(Guid id, [FromBody] DecreaseRequest req, CancellationToken ct)
     {
-        await _mediator.Send(new DecreaseStockCommand(id, request.Amount));
+        var cmd = new DecreaseStockCommand(id, req.Amount);
+        await _dispatcher.DispatchAsync(cmd, ct);
         return Ok();
     }
 
     [HttpPost("create")]
-    public async Task<IActionResult> Create([FromBody] CreateStockRequest req, [FromServices] InventoryService.Infrastructure.Persistance.InventoryDbContext db)
+    public async Task<IActionResult> Create([FromBody] CreateRequest req, [FromServices] InventoryService.Infrastructure.Persistance.InventoryDbContext db, CancellationToken ct)
     {
         var item = new InventoryService.Domain.Entities.StockItem(req.Name, req.Quantity);
         db.StockItems.Add(item);
-        await db.SaveChangesAsync();
+        await db.SaveChangesAsync(ct);
         return CreatedAtAction(nameof(Get), new { id = item.Id }, item);
     }
 
     [HttpGet("{id:guid}")]
-    public async Task<IActionResult> Get(Guid id, [FromServices] InventoryService.Infrastructure.Persistance.InventoryDbContext db)
+    public async Task<IActionResult> Get(Guid id, [FromServices] InventoryService.Infrastructure.Persistance.InventoryDbContext db, CancellationToken ct)
     {
-        var item = await db.StockItems.FindAsync(id);
+        var item = await db.StockItems.FindAsync(new object[] { id }, ct);
         if (item == null) return NotFound();
         return Ok(item);
     }
 
     public record DecreaseRequest(int Amount);
-    public record CreateStockRequest(string Name, int Quantity);
+    public record CreateRequest(string Name, int Quantity);
 }

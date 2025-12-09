@@ -1,5 +1,4 @@
 using InventoryService.Application;
-using InventoryService.Application.Commands;
 using InventoryService.Infrastructure;
 using Microsoft.Extensions.DependencyInjection;
 using OpenTelemetry.Resources;

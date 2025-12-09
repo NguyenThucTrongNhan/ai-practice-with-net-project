@@ -1,30 +1,30 @@
 ﻿using InventoryService.Application.Interfaces;
 using InventoryService.Domain.Events;
-using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Microsoft.Extensions.Logging;
 
-namespace InventoryService.Application.EventHandlers
+namespace InventoryService.Application.EventHandlers;
+
+public class SendLowStockNotificationHandler : IDomainEventHandler<LowStockEvent>
 {
-    public class SendLowStockNotificationHandler : INotificationHandler<LowStockEvent>
+    private readonly ILogger<SendLowStockNotificationHandler> _logger;
+
+    public SendLowStockNotificationHandler(
+        ILogger<SendLowStockNotificationHandler> logger)
     {
-        private readonly IEmailService _email;
+        _logger = logger;
+    }
 
-        public SendLowStockNotificationHandler(IEmailService email)
-        {
-            _email = email;
-        }
+    public Task HandleAsync(LowStockEvent domainEvent, CancellationToken cancellationToken = default)
+    {
+        _logger.LogWarning(
+            "LOW STOCK WARNING → ProductId: {ProductId}, CurrentStock: {Stock}, OccurredOn: {OccurredOn}",
+            domainEvent.ProductId,
+            domainEvent.CurrentStock,
+            domainEvent.OccurredOn
+        );
 
-        public async Task Handle(LowStockEvent notification, CancellationToken cancellationToken)
-        {
-            var subject = $"Low stock alert - {notification.ItemName}";
-            var body = $"Item: {notification.ItemName} (Id: {notification.ItemId}) has low stock: {notification.Quantity}";
+        // 👉 TODO: Add email/SMS/notification/message bus publishing here
 
-            // In version 1 this is synchronous call to internal email service (console or simple SMTP wrapper)
-            await _email.SendAsync("admin@company.local", subject, body, cancellationToken);
-        }
+        return Task.CompletedTask;
     }
 }

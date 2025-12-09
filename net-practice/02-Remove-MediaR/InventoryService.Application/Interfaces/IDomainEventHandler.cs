@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace InventoryService.Application.Interfaces
+namespace InventoryService.Application.Interfaces;
+
+public interface IDomainEventHandler<TEvent>
 {
-    //internal interface IDomainEventHandler
-    //{
-    //}
+    Task HandleAsync(TEvent @event, CancellationToken ct = default);
 }

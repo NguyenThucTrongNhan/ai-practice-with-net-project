@@ -1,22 +1,26 @@
-﻿using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using FluentValidation;
+using InventoryService.Application.Commands;
+using InventoryService.Application.Dispatch;
+using Microsoft.Extensions.DependencyInjection;
 
-namespace InventoryService.Application
+namespace InventoryService.Application;
+
+public static class ApplicationServiceRegistration
 {
-    public static class ApplicationServiceRegistration
+    public static IServiceCollection AddApplication(this IServiceCollection services)
     {
-        public static IServiceCollection AddApplication(this IServiceCollection services)
-        {
-            services.AddMediatR(cfg =>
-            {
-                cfg.RegisterServicesFromAssembly(typeof(ApplicationServiceRegistration).Assembly);
-            });
+        // Register command dispatcher
+        services.AddScoped<ICommandDispatcher, CommandDispatcher>();
 
-            return services;
-        }
+        // Register handlers (concrete)
+        services.AddScoped<ICommandHandler<InventoryService.Application.Commands.DecreaseStockCommand>, DecreaseStockCommandHandler>();
+
+        // Register validators from assembly (FluentValidation)
+        services.AddValidatorsFromAssembly(typeof(ApplicationServiceRegistration).Assembly);
+
+        // If validators implement ICommandValidator<T>, register them automatically:
+        // Fluent validators above implement ICommandValidator<T> directly in our sample.
+
+        return services;
     }
 }

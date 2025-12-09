@@ -1,6 +1,5 @@
 ﻿using InventoryService.Domain.Common;
 using InventoryService.Domain.Events;
-using MediatR;
 
 namespace InventoryService.Domain.Entities
 {
