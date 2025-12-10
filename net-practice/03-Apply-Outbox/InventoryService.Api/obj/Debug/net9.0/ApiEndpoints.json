@@ -1,0 +1,55 @@
+[
+  {
+    "ContainingType": "InventoryService.API.Controllers.StockController",
+    "Method": "Get",
+    "RelativePath": "api/Stock/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InventoryService.API.Controllers.StockController",
+    "Method": "Decrease",
+    "RelativePath": "api/Stock/{id}/decrease",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "req",
+        "Type": "InventoryService.API.Controllers.StockController\u002BDecreaseRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InventoryService.API.Controllers.StockController",
+    "Method": "Create",
+    "RelativePath": "api/Stock/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "InventoryService.API.Controllers.StockController\u002BCreateRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
