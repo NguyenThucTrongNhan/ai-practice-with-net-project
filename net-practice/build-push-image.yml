@@ -1,0 +1,50 @@
+name: Build and Publish Image
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  packages: write
+  id-token: write
+
+jobs:
+  build-push:
+    runs-on: ubuntu-latest
+    needs: [ "prepare", "build-and-test" ] # if combined, adjust
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v2
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v2
+
+      - name: Login to GHCR
+        uses: docker/login-action@v2
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GHCR_TOKEN }}
+
+      - name: Build image
+        run: |
+          IMAGE=ghcr.io/${{ secrets.GHCR_OWNER }}/${{ github.repository }}:${{ github.sha }}
+          docker build -f docker/Dockerfile.Api -t $IMAGE .
+          echo "IMAGE=$IMAGE" >> $GITHUB_OUTPUT
+        shell: bash
+        id: build
+
+      - name: Push image
+        run: |
+          docker push ghcr.io/${{ secrets.GHCR_OWNER }}/${{ github.repository }}:${{ github.sha }}
+
+      - name: Trivy scan image
+        uses: aquasecurity/trivy-action@v2
+        with:
+          image-ref: ghcr.io/${{ secrets.GHCR_OWNER }}/${{ github.repository }}:${{ github.sha }}
+          format: table
+          ignore-unfixed: true

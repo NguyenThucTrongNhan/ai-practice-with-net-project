@@ -1,0 +1,145 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "McpServer.Core.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "McpServer.Core.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/McpServer.Core.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/McpServer.Core.Application.dll": {}
+        }
+      },
+      "McpServer.Core.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/McpServer.Core.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/McpServer.Core.Domain.dll": {}
+        }
+      },
+      "McpServer.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "McpServer.Core.Application": "1.0.0",
+          "McpServer.Core.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/McpServer.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/McpServer.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "McpServer.Core.Application/1.0.0": {
+      "type": "project",
+      "path": "../../Core/Application/McpServer.Core.Application.csproj",
+      "msbuildProject": "../../Core/Application/McpServer.Core.Application.csproj"
+    },
+    "McpServer.Core.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../Core/Domain/McpServer.Core.Domain.csproj",
+      "msbuildProject": "../../Core/Domain/McpServer.Core.Domain.csproj"
+    },
+    "McpServer.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../../Infrastructure/McpServer.Infrastructure.csproj",
+      "msbuildProject": "../../Infrastructure/McpServer.Infrastructure.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "McpServer.Core.Application >= 1.0.0",
+      "McpServer.Infrastructure >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\nhan.nguyen\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\2025\\Projects\\ai-practice-with-net-project\\net-practice\\McpServer\\src\\Presentation\\McpServerHost\\McpServer.Presentation.McpServerHost.csproj",
+      "projectName": "McpServer.Presentation.McpServerHost",
+      "projectPath": "D:\\2025\\Projects\\ai-practice-with-net-project\\net-practice\\McpServer\\src\\Presentation\\McpServerHost\\McpServer.Presentation.McpServerHost.csproj",
+      "packagesPath": "C:\\Users\\nhan.nguyen\\.nuget\\packages\\",
+      "outputPath": "D:\\2025\\Projects\\ai-practice-with-net-project\\net-practice\\McpServer\\src\\Presentation\\McpServerHost\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\nhan.nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "D:\\2025\\Projects\\s4u_2025\\Backup\\S4UERPV1\\local-nuget": {},
+        "D:\\2025\\Projects\\s4u_2025\\Plugin-Architect\\Enterprise.Solution\\local-feed": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "D:\\2025\\Projects\\ai-practice-with-net-project\\net-practice\\McpServer\\src\\Core\\Application\\McpServer.Core.Application.csproj": {
+              "projectPath": "D:\\2025\\Projects\\ai-practice-with-net-project\\net-practice\\McpServer\\src\\Core\\Application\\McpServer.Core.Application.csproj"
+            },
+            "D:\\2025\\Projects\\ai-practice-with-net-project\\net-practice\\McpServer\\src\\Infrastructure\\McpServer.Infrastructure.csproj": {
+              "projectPath": "D:\\2025\\Projects\\ai-practice-with-net-project\\net-practice\\McpServer\\src\\Infrastructure\\McpServer.Infrastructure.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.205/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

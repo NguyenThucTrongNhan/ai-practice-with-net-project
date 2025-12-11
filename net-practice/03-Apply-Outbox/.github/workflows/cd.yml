@@ -1,0 +1,100 @@
+name: CD
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+    inputs:
+      env:
+        description: "target env (staging|production)"
+        required: true
+        default: staging
+
+permissions:
+  contents: read
+  id-token: write
+
+env:
+  GHCR_IMAGE: ghcr.io/${{ secrets.GHCR_OWNER }}/${{ github.repository }}:${{ github.sha }}
+  K8S_NAMESPACE_STAGING: inventory-staging
+  K8S_NAMESPACE_PROD: inventory-prod
+
+jobs:
+  deploy-staging:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup kubectl
+        uses: azure/setup-kubectl@v3
+        with:
+          version: 'v1.28.0'
+
+      - name: Configure kubeconfig
+        run: |
+          echo "${{ secrets.KUBE_CONFIG }}" | base64 --decode > kubeconfig
+          export KUBECONFIG=$PWD/kubeconfig
+          kubectl config current-context
+
+      - name: Apply namespace
+        run: |
+          export KUBECONFIG=$PWD/kubeconfig
+          kubectl create namespace $K8S_NAMESPACE_STAGING --dry-run=client -o yaml | kubectl apply -f -
+
+      - name: Deploy manifests (staging)
+        run: |
+          export KUBECONFIG=$PWD/kubeconfig
+          IMAGE=${{ env.GHCR_IMAGE }}
+          envsubst < .k8s/deployment.yaml | kubectl -n $K8S_NAMESPACE_STAGING apply -f -
+          envsubst < .k8s/service.yaml | kubectl -n $K8S_NAMESPACE_STAGING apply -f -
+
+      - name: Run DB migrations (staging)
+        run: |
+          export KUBECONFIG=$PWD/kubeconfig
+          kubectl -n $K8S_NAMESPACE_STAGING delete job migrate-job --ignore-not-found
+          envsubst < .k8s/migrate-job.yaml | kubectl -n $K8S_NAMESPACE_STAGING apply -f -
+          kubectl -n $K8S_NAMESPACE_STAGING wait --for=condition=complete --timeout=120s job/migrate-job || true
+
+      - name: Smoke test
+        run: |
+          export KUBECONFIG=$PWD/kubeconfig
+          kubectl -n $K8S_NAMESPACE_STAGING rollout status deployment/inventory --timeout=120s
+          POD=$(kubectl -n $K8S_NAMESPACE_STAGING get pods -l app=inventory -o jsonpath='{.items[0].metadata.name}')
+          kubectl -n $K8S_NAMESPACE_STAGING exec $POD -- curl -f http://localhost:80/health || (kubectl -n $K8S_NAMESPACE_STAGING logs $POD && exit 1)
+
+  promote-to-prod:
+    runs-on: ubuntu-latest
+    needs: deploy-staging
+    if: github.event_name == 'workflow_dispatch' && github.event.inputs.env == 'production'
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Approval (manual)
+        uses: chrnorm/deploy-approval-action@v1
+        with:
+          message: "Approve production deployment"
+          timeout_minutes: 120
+
+      - name: Setup kubectl
+        uses: azure/setup-kubectl@v3
+        with:
+          version: 'v1.28.0'
+
+      - name: Configure kubeconfig
+        run: |
+          echo "${{ secrets.KUBE_CONFIG }}" | base64 --decode > kubeconfig
+          export KUBECONFIG=$PWD/kubeconfig
+
+      - name: Deploy manifests (prod)
+        run: |
+          export KUBECONFIG=$PWD/kubeconfig
+          envsubst < .k8s/deployment.yaml | kubectl -n $K8S_NAMESPACE_PROD apply -f -
+          envsubst < .k8s/service.yaml | kubectl -n $K8S_NAMESPACE_PROD apply -f -
+
+      - name: Run DB migrations (prod)
+        run: |
+          export KUBECONFIG=$PWD/kubeconfig
+          kubectl -n $K8S_NAMESPACE_PROD delete job migrate-job --ignore-not-found
+          envsubst < .k8s/migrate-job.yaml | kubectl -n $K8S_NAMESPACE_PROD apply -f -
+          kubectl -n $K8S_NAMESPACE_PROD wait --for=condition=complete --timeout=300s job/migrate-job || true

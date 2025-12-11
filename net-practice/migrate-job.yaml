@@ -1,0 +1,19 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: migrate-job
+spec:
+  template:
+    spec:
+      containers:
+      - name: migrate
+        image: ${IMAGE:-ghcr.io/${GHCR_OWNER}/${REPOSITORY}:latest}
+        command: ["dotnet", "InventoryService.Infrastructure.dll", "migrate"] # replace with your migration runner if different
+        env:
+          - name: ConnectionStrings__DefaultConnection
+            valueFrom:
+              secretKeyRef:
+                name: inventory-secrets
+                key: DefaultConnection
+      restartPolicy: Never
+  backoffLimit: 1
