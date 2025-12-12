@@ -1,0 +1,12 @@
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Auth\Auth.Domain\bin\Debug\net9.0\Auth.Domain.deps.json
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Auth\Auth.Domain\bin\Debug\net9.0\Auth.Domain.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Auth\Auth.Domain\bin\Debug\net9.0\Auth.Domain.pdb
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Auth\Auth.Domain\obj\Debug\net9.0\Auth.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Auth\Auth.Domain\obj\Debug\net9.0\Auth.Domain.AssemblyInfoInputs.cache
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Auth\Auth.Domain\obj\Debug\net9.0\Auth.Domain.AssemblyInfo.cs
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Auth\Auth.Domain\obj\Debug\net9.0\Auth.Domain.csproj.CoreCompileInputs.cache
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Auth\Auth.Domain\obj\Debug\net9.0\Auth.Domain.sourcelink.json
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Auth\Auth.Domain\obj\Debug\net9.0\Auth.Domain.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Auth\Auth.Domain\obj\Debug\net9.0\refint\Auth.Domain.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Auth\Auth.Domain\obj\Debug\net9.0\Auth.Domain.pdb
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Auth\Auth.Domain\obj\Debug\net9.0\ref\Auth.Domain.dll

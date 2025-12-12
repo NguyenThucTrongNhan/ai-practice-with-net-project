@@ -26,9 +26,4 @@
     <Folder Include="Middleware\" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\InventoryService.Application\InventoryService.Application.csproj" />
-    <ProjectReference Include="..\InventoryService.Infrastructure\InventoryService.Infrastructure.csproj" />
-  </ItemGroup>
-
 </Project>

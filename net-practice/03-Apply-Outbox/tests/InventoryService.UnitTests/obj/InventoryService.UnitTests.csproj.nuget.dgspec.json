@@ -33,11 +33,7 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {
-              "D:\\2025\\Projects\\ai-practice-with-net-project\\net-practice\\03-Apply-Outbox\\src\\InventoryService.Domain\\InventoryService.Domain.csproj": {
-                "projectPath": "D:\\2025\\Projects\\ai-practice-with-net-project\\net-practice\\03-Apply-Outbox\\src\\InventoryService.Domain\\InventoryService.Domain.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -195,14 +191,7 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {
-              "D:\\2025\\Projects\\ai-practice-with-net-project\\net-practice\\03-Apply-Outbox\\src\\InventoryService.Application\\InventoryService.Application.csproj": {
-                "projectPath": "D:\\2025\\Projects\\ai-practice-with-net-project\\net-practice\\03-Apply-Outbox\\src\\InventoryService.Application\\InventoryService.Application.csproj"
-              },
-              "D:\\2025\\Projects\\ai-practice-with-net-project\\net-practice\\03-Apply-Outbox\\src\\InventoryService.Domain\\InventoryService.Domain.csproj": {
-                "projectPath": "D:\\2025\\Projects\\ai-practice-with-net-project\\net-practice\\03-Apply-Outbox\\src\\InventoryService.Domain\\InventoryService.Domain.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {

@@ -1,0 +1,16 @@
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Workflow\Workflow.Infrastructure\bin\Debug\net9.0\Workflow.Infrastructure.deps.json
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Workflow\Workflow.Infrastructure\bin\Debug\net9.0\Workflow.Infrastructure.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Workflow\Workflow.Infrastructure\bin\Debug\net9.0\Workflow.Infrastructure.pdb
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Workflow\Workflow.Infrastructure\bin\Debug\net9.0\Workflow.Domain.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Workflow\Workflow.Infrastructure\bin\Debug\net9.0\Workflow.Domain.pdb
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Workflow\Workflow.Infrastructure\obj\Debug\net9.0\Workflow.Infrastructure.csproj.AssemblyReference.cache
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Workflow\Workflow.Infrastructure\obj\Debug\net9.0\Workflow.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Workflow\Workflow.Infrastructure\obj\Debug\net9.0\Workflow.Infrastructure.AssemblyInfoInputs.cache
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Workflow\Workflow.Infrastructure\obj\Debug\net9.0\Workflow.Infrastructure.AssemblyInfo.cs
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Workflow\Workflow.Infrastructure\obj\Debug\net9.0\Workflow.Infrastructure.csproj.CoreCompileInputs.cache
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Workflow\Workflow.Infrastructure\obj\Debug\net9.0\Workflow.Infrastructure.sourcelink.json
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Workflow\Workflow.Infrastructure\obj\Debug\net9.0\Workflow.75D10DA7.Up2Date
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Workflow\Workflow.Infrastructure\obj\Debug\net9.0\Workflow.Infrastructure.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Workflow\Workflow.Infrastructure\obj\Debug\net9.0\refint\Workflow.Infrastructure.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Workflow\Workflow.Infrastructure\obj\Debug\net9.0\Workflow.Infrastructure.pdb
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Workflow\Workflow.Infrastructure\obj\Debug\net9.0\ref\Workflow.Infrastructure.dll

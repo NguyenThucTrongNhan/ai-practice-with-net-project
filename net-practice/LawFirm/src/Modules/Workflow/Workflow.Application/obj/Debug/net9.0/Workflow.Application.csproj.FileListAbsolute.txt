@@ -1,0 +1,16 @@
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Workflow\Workflow.Application\bin\Debug\net9.0\Workflow.Application.deps.json
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Workflow\Workflow.Application\bin\Debug\net9.0\Workflow.Application.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Workflow\Workflow.Application\bin\Debug\net9.0\Workflow.Application.pdb
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Workflow\Workflow.Application\bin\Debug\net9.0\Workflow.Domain.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Workflow\Workflow.Application\bin\Debug\net9.0\Workflow.Domain.pdb
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Workflow\Workflow.Application\obj\Debug\net9.0\Workflow.Application.csproj.AssemblyReference.cache
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Workflow\Workflow.Application\obj\Debug\net9.0\Workflow.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Workflow\Workflow.Application\obj\Debug\net9.0\Workflow.Application.AssemblyInfoInputs.cache
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Workflow\Workflow.Application\obj\Debug\net9.0\Workflow.Application.AssemblyInfo.cs
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Workflow\Workflow.Application\obj\Debug\net9.0\Workflow.Application.csproj.CoreCompileInputs.cache
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Workflow\Workflow.Application\obj\Debug\net9.0\Workflow.Application.sourcelink.json
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Workflow\Workflow.Application\obj\Debug\net9.0\Workflow.D4E255B0.Up2Date
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Workflow\Workflow.Application\obj\Debug\net9.0\Workflow.Application.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Workflow\Workflow.Application\obj\Debug\net9.0\refint\Workflow.Application.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Workflow\Workflow.Application\obj\Debug\net9.0\Workflow.Application.pdb
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Workflow\Workflow.Application\obj\Debug\net9.0\ref\Workflow.Application.dll

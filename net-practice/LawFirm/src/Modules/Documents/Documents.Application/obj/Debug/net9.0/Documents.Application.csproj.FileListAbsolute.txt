@@ -1,0 +1,16 @@
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Documents\Documents.Application\bin\Debug\net9.0\Documents.Application.deps.json
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Documents\Documents.Application\bin\Debug\net9.0\Documents.Application.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Documents\Documents.Application\bin\Debug\net9.0\Documents.Application.pdb
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Documents\Documents.Application\bin\Debug\net9.0\Documents.Domain.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Documents\Documents.Application\bin\Debug\net9.0\Documents.Domain.pdb
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Documents\Documents.Application\obj\Debug\net9.0\Documents.Application.csproj.AssemblyReference.cache
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Documents\Documents.Application\obj\Debug\net9.0\Documents.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Documents\Documents.Application\obj\Debug\net9.0\Documents.Application.AssemblyInfoInputs.cache
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Documents\Documents.Application\obj\Debug\net9.0\Documents.Application.AssemblyInfo.cs
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Documents\Documents.Application\obj\Debug\net9.0\Documents.Application.csproj.CoreCompileInputs.cache
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Documents\Documents.Application\obj\Debug\net9.0\Documents.Application.sourcelink.json
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Documents\Documents.Application\obj\Debug\net9.0\Document.B49D2FDB.Up2Date
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Documents\Documents.Application\obj\Debug\net9.0\Documents.Application.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Documents\Documents.Application\obj\Debug\net9.0\refint\Documents.Application.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Documents\Documents.Application\obj\Debug\net9.0\Documents.Application.pdb
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Documents\Documents.Application\obj\Debug\net9.0\ref\Documents.Application.dll

@@ -1109,7 +1109,6 @@
         "dependencies": {
           "FluentValidation": "12.1.1",
           "FluentValidation.DependencyInjectionExtensions": "12.1.1",
-          "InventoryService.Domain": "1.0.0",
           "MediatR": "14.0.0",
           "Microsoft.Extensions.Logging.Abstractions": "10.0.0"
         },
@@ -1138,8 +1137,6 @@
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
           "Confluent.Kafka": "2.12.0",
-          "InventoryService.Application": "1.0.0",
-          "InventoryService.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "9.0.11",
           "Microsoft.EntityFrameworkCore.InMemory": "9.0.11",
           "Microsoft.EntityFrameworkCore.Relational": "9.0.11",

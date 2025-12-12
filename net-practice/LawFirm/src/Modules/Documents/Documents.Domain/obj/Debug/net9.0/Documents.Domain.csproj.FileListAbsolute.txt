@@ -1,0 +1,12 @@
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Documents\Documents.Domain\bin\Debug\net9.0\Documents.Domain.deps.json
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Documents\Documents.Domain\bin\Debug\net9.0\Documents.Domain.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Documents\Documents.Domain\bin\Debug\net9.0\Documents.Domain.pdb
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Documents\Documents.Domain\obj\Debug\net9.0\Documents.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Documents\Documents.Domain\obj\Debug\net9.0\Documents.Domain.AssemblyInfoInputs.cache
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Documents\Documents.Domain\obj\Debug\net9.0\Documents.Domain.AssemblyInfo.cs
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Documents\Documents.Domain\obj\Debug\net9.0\Documents.Domain.csproj.CoreCompileInputs.cache
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Documents\Documents.Domain\obj\Debug\net9.0\Documents.Domain.sourcelink.json
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Documents\Documents.Domain\obj\Debug\net9.0\Documents.Domain.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Documents\Documents.Domain\obj\Debug\net9.0\refint\Documents.Domain.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Documents\Documents.Domain\obj\Debug\net9.0\Documents.Domain.pdb
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Documents\Documents.Domain\obj\Debug\net9.0\ref\Documents.Domain.dll

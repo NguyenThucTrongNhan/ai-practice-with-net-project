@@ -1,0 +1,12 @@
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CRM\CRM.Domain\bin\Debug\net9.0\CRM.Domain.deps.json
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CRM\CRM.Domain\bin\Debug\net9.0\CRM.Domain.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CRM\CRM.Domain\bin\Debug\net9.0\CRM.Domain.pdb
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CRM\CRM.Domain\obj\Debug\net9.0\CRM.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CRM\CRM.Domain\obj\Debug\net9.0\CRM.Domain.AssemblyInfoInputs.cache
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CRM\CRM.Domain\obj\Debug\net9.0\CRM.Domain.AssemblyInfo.cs
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CRM\CRM.Domain\obj\Debug\net9.0\CRM.Domain.csproj.CoreCompileInputs.cache
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CRM\CRM.Domain\obj\Debug\net9.0\CRM.Domain.sourcelink.json
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CRM\CRM.Domain\obj\Debug\net9.0\CRM.Domain.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CRM\CRM.Domain\obj\Debug\net9.0\refint\CRM.Domain.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CRM\CRM.Domain\obj\Debug\net9.0\CRM.Domain.pdb
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CRM\CRM.Domain\obj\Debug\net9.0\ref\CRM.Domain.dll

@@ -1,0 +1,12 @@
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CaseManagement\CaseManagement.Domain\bin\Debug\net9.0\CaseManagement.Domain.deps.json
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CaseManagement\CaseManagement.Domain\bin\Debug\net9.0\CaseManagement.Domain.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CaseManagement\CaseManagement.Domain\bin\Debug\net9.0\CaseManagement.Domain.pdb
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CaseManagement\CaseManagement.Domain\obj\Debug\net9.0\CaseManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CaseManagement\CaseManagement.Domain\obj\Debug\net9.0\CaseManagement.Domain.AssemblyInfoInputs.cache
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CaseManagement\CaseManagement.Domain\obj\Debug\net9.0\CaseManagement.Domain.AssemblyInfo.cs
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CaseManagement\CaseManagement.Domain\obj\Debug\net9.0\CaseManagement.Domain.csproj.CoreCompileInputs.cache
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CaseManagement\CaseManagement.Domain\obj\Debug\net9.0\CaseManagement.Domain.sourcelink.json
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CaseManagement\CaseManagement.Domain\obj\Debug\net9.0\CaseManagement.Domain.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CaseManagement\CaseManagement.Domain\obj\Debug\net9.0\refint\CaseManagement.Domain.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CaseManagement\CaseManagement.Domain\obj\Debug\net9.0\CaseManagement.Domain.pdb
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CaseManagement\CaseManagement.Domain\obj\Debug\net9.0\ref\CaseManagement.Domain.dll

@@ -1,0 +1,16 @@
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Auth\Auth.Infrastructure\bin\Debug\net9.0\Auth.Infrastructure.deps.json
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Auth\Auth.Infrastructure\bin\Debug\net9.0\Auth.Infrastructure.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Auth\Auth.Infrastructure\bin\Debug\net9.0\Auth.Infrastructure.pdb
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Auth\Auth.Infrastructure\bin\Debug\net9.0\Auth.Domain.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Auth\Auth.Infrastructure\bin\Debug\net9.0\Auth.Domain.pdb
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Auth\Auth.Infrastructure\obj\Debug\net9.0\Auth.Infrastructure.csproj.AssemblyReference.cache
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Auth\Auth.Infrastructure\obj\Debug\net9.0\Auth.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Auth\Auth.Infrastructure\obj\Debug\net9.0\Auth.Infrastructure.AssemblyInfoInputs.cache
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Auth\Auth.Infrastructure\obj\Debug\net9.0\Auth.Infrastructure.AssemblyInfo.cs
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Auth\Auth.Infrastructure\obj\Debug\net9.0\Auth.Infrastructure.csproj.CoreCompileInputs.cache
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Auth\Auth.Infrastructure\obj\Debug\net9.0\Auth.Infrastructure.sourcelink.json
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Auth\Auth.Infrastructure\obj\Debug\net9.0\Auth.Inf.EC29ECAC.Up2Date
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Auth\Auth.Infrastructure\obj\Debug\net9.0\Auth.Infrastructure.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Auth\Auth.Infrastructure\obj\Debug\net9.0\refint\Auth.Infrastructure.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Auth\Auth.Infrastructure\obj\Debug\net9.0\Auth.Infrastructure.pdb
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Auth\Auth.Infrastructure\obj\Debug\net9.0\ref\Auth.Infrastructure.dll

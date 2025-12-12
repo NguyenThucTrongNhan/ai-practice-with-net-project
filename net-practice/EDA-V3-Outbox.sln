@@ -24,6 +24,28 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryService.Infrastruc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryService.UnitTests", "03-Apply-Outbox\tests\InventoryService.UnitTests\InventoryService.UnitTests.csproj", "{1EE1F835-8C76-459C-9C19-BBDA36DAE492}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F4EC47C7-1082-4793-9A71-B12EEF5F47DB}"
+	ProjectSection(SolutionItems) = preProject
+		README.MD = README.MD
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{D494C1E1-FE98-4061-8D1A-F4C576A59B3B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{0CEE80D7-52E7-44B0-A57C-88AC540C5F60}"
+	ProjectSection(SolutionItems) = preProject
+		build-push-image.yml = build-push-image.yml
+		cd.yml = cd.yml
+		ci.yml = ci.yml
+		code-scanning.yml = code-scanning.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".k8s", ".k8s", "{B9835C12-CDBD-46B1-8B6D-6D48924E1D74}"
+	ProjectSection(SolutionItems) = preProject
+		03-Apply-Outbox\.k8s\deployment.yaml = 03-Apply-Outbox\.k8s\deployment.yaml
+		migrate-job.yaml = migrate-job.yaml
+		service.yaml = service.yaml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,6 +82,7 @@ Global
 		{916D37E8-10F7-8A11-1057-69F96CD5CDDB} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{E1C6B590-35EA-EFF3-3B1A-B83CFA6C555F} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{1EE1F835-8C76-459C-9C19-BBDA36DAE492} = {81947F9E-AF77-41CB-8327-C747A1490640}
+		{0CEE80D7-52E7-44B0-A57C-88AC540C5F60} = {D494C1E1-FE98-4061-8D1A-F4C576A59B3B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {451C4EB0-7BBE-4ADF-8DCF-444DF18481B7}

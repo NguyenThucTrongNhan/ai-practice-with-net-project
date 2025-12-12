@@ -1,0 +1,16 @@
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Reports\Reports.Infrastructure\bin\Debug\net9.0\Reports.Infrastructure.deps.json
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Reports\Reports.Infrastructure\bin\Debug\net9.0\Reports.Infrastructure.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Reports\Reports.Infrastructure\bin\Debug\net9.0\Reports.Infrastructure.pdb
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Reports\Reports.Infrastructure\bin\Debug\net9.0\Reports.Domain.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Reports\Reports.Infrastructure\bin\Debug\net9.0\Reports.Domain.pdb
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Reports\Reports.Infrastructure\obj\Debug\net9.0\Reports.Infrastructure.csproj.AssemblyReference.cache
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Reports\Reports.Infrastructure\obj\Debug\net9.0\Reports.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Reports\Reports.Infrastructure\obj\Debug\net9.0\Reports.Infrastructure.AssemblyInfoInputs.cache
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Reports\Reports.Infrastructure\obj\Debug\net9.0\Reports.Infrastructure.AssemblyInfo.cs
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Reports\Reports.Infrastructure\obj\Debug\net9.0\Reports.Infrastructure.csproj.CoreCompileInputs.cache
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Reports\Reports.Infrastructure\obj\Debug\net9.0\Reports.Infrastructure.sourcelink.json
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Reports\Reports.Infrastructure\obj\Debug\net9.0\Reports..297C9CFD.Up2Date
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Reports\Reports.Infrastructure\obj\Debug\net9.0\Reports.Infrastructure.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Reports\Reports.Infrastructure\obj\Debug\net9.0\refint\Reports.Infrastructure.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Reports\Reports.Infrastructure\obj\Debug\net9.0\Reports.Infrastructure.pdb
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Reports\Reports.Infrastructure\obj\Debug\net9.0\ref\Reports.Infrastructure.dll

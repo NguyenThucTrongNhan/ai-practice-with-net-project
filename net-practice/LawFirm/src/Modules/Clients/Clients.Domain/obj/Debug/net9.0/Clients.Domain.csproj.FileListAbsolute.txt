@@ -1,0 +1,12 @@
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Clients\Clients.Domain\bin\Debug\net9.0\Clients.Domain.deps.json
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Clients\Clients.Domain\bin\Debug\net9.0\Clients.Domain.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Clients\Clients.Domain\bin\Debug\net9.0\Clients.Domain.pdb
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Clients\Clients.Domain\obj\Debug\net9.0\Clients.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Clients\Clients.Domain\obj\Debug\net9.0\Clients.Domain.AssemblyInfoInputs.cache
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Clients\Clients.Domain\obj\Debug\net9.0\Clients.Domain.AssemblyInfo.cs
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Clients\Clients.Domain\obj\Debug\net9.0\Clients.Domain.csproj.CoreCompileInputs.cache
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Clients\Clients.Domain\obj\Debug\net9.0\Clients.Domain.sourcelink.json
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Clients\Clients.Domain\obj\Debug\net9.0\Clients.Domain.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Clients\Clients.Domain\obj\Debug\net9.0\refint\Clients.Domain.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Clients\Clients.Domain\obj\Debug\net9.0\Clients.Domain.pdb
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Clients\Clients.Domain\obj\Debug\net9.0\ref\Clients.Domain.dll

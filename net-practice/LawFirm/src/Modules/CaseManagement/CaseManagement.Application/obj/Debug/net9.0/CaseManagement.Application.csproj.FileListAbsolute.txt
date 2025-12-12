@@ -1,0 +1,16 @@
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CaseManagement\CaseManagement.Application\bin\Debug\net9.0\CaseManagement.Application.deps.json
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CaseManagement\CaseManagement.Application\bin\Debug\net9.0\CaseManagement.Application.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CaseManagement\CaseManagement.Application\bin\Debug\net9.0\CaseManagement.Application.pdb
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CaseManagement\CaseManagement.Application\bin\Debug\net9.0\CaseManagement.Domain.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CaseManagement\CaseManagement.Application\bin\Debug\net9.0\CaseManagement.Domain.pdb
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CaseManagement\CaseManagement.Application\obj\Debug\net9.0\CaseManagement.Application.csproj.AssemblyReference.cache
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CaseManagement\CaseManagement.Application\obj\Debug\net9.0\CaseManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CaseManagement\CaseManagement.Application\obj\Debug\net9.0\CaseManagement.Application.AssemblyInfoInputs.cache
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CaseManagement\CaseManagement.Application\obj\Debug\net9.0\CaseManagement.Application.AssemblyInfo.cs
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CaseManagement\CaseManagement.Application\obj\Debug\net9.0\CaseManagement.Application.csproj.CoreCompileInputs.cache
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CaseManagement\CaseManagement.Application\obj\Debug\net9.0\CaseManagement.Application.sourcelink.json
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CaseManagement\CaseManagement.Application\obj\Debug\net9.0\CaseMana.09E5E1F4.Up2Date
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CaseManagement\CaseManagement.Application\obj\Debug\net9.0\CaseManagement.Application.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CaseManagement\CaseManagement.Application\obj\Debug\net9.0\refint\CaseManagement.Application.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CaseManagement\CaseManagement.Application\obj\Debug\net9.0\CaseManagement.Application.pdb
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CaseManagement\CaseManagement.Application\obj\Debug\net9.0\ref\CaseManagement.Application.dll

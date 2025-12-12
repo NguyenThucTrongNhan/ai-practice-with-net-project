@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker", "docker", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		03-Apply-Outbox\docker\kafka\docker-compose.kafka.yml = 03-Apply-Outbox\docker\kafka\docker-compose.kafka.yml
+		docker-compose.yml = docker-compose.yml
+		Dockerfile.Api = Dockerfile.Api
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{81947F9E-AF77-41CB-8327-C747A1490640}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryService.Api", "03-Apply-Outbox\src\InventoryService.Api\InventoryService.Api.csproj", "{A84A530B-41AA-3272-6B38-95B90C528F7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryService.Application", "03-Apply-Outbox\src\InventoryService.Application\InventoryService.Application.csproj", "{A420664C-AB4F-3009-0A58-AC278B7FB533}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryService.Domain", "03-Apply-Outbox\src\InventoryService.Domain\InventoryService.Domain.csproj", "{916D37E8-10F7-8A11-1057-69F96CD5CDDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryService.Infrastructure", "03-Apply-Outbox\src\InventoryService.Infrastructure\InventoryService.Infrastructure.csproj", "{E1C6B590-35EA-EFF3-3B1A-B83CFA6C555F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryService.UnitTests", "03-Apply-Outbox\tests\InventoryService.UnitTests\InventoryService.UnitTests.csproj", "{1EE1F835-8C76-459C-9C19-BBDA36DAE492}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A84A530B-41AA-3272-6B38-95B90C528F7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A84A530B-41AA-3272-6B38-95B90C528F7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A84A530B-41AA-3272-6B38-95B90C528F7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A84A530B-41AA-3272-6B38-95B90C528F7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A420664C-AB4F-3009-0A58-AC278B7FB533}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A420664C-AB4F-3009-0A58-AC278B7FB533}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A420664C-AB4F-3009-0A58-AC278B7FB533}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A420664C-AB4F-3009-0A58-AC278B7FB533}.Release|Any CPU.Build.0 = Release|Any CPU
+		{916D37E8-10F7-8A11-1057-69F96CD5CDDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{916D37E8-10F7-8A11-1057-69F96CD5CDDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{916D37E8-10F7-8A11-1057-69F96CD5CDDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{916D37E8-10F7-8A11-1057-69F96CD5CDDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1C6B590-35EA-EFF3-3B1A-B83CFA6C555F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1C6B590-35EA-EFF3-3B1A-B83CFA6C555F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1C6B590-35EA-EFF3-3B1A-B83CFA6C555F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1C6B590-35EA-EFF3-3B1A-B83CFA6C555F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EE1F835-8C76-459C-9C19-BBDA36DAE492}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EE1F835-8C76-459C-9C19-BBDA36DAE492}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EE1F835-8C76-459C-9C19-BBDA36DAE492}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EE1F835-8C76-459C-9C19-BBDA36DAE492}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A84A530B-41AA-3272-6B38-95B90C528F7E} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{A420664C-AB4F-3009-0A58-AC278B7FB533} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{916D37E8-10F7-8A11-1057-69F96CD5CDDB} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{E1C6B590-35EA-EFF3-3B1A-B83CFA6C555F} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{1EE1F835-8C76-459C-9C19-BBDA36DAE492} = {81947F9E-AF77-41CB-8327-C747A1490640}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {451C4EB0-7BBE-4ADF-8DCF-444DF18481B7}
+	EndGlobalSection
+EndGlobal

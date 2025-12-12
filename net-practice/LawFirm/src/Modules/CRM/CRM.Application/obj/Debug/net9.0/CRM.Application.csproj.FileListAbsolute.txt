@@ -1,0 +1,16 @@
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CRM\CRM.Application\bin\Debug\net9.0\CRM.Application.deps.json
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CRM\CRM.Application\bin\Debug\net9.0\CRM.Application.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CRM\CRM.Application\bin\Debug\net9.0\CRM.Application.pdb
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CRM\CRM.Application\bin\Debug\net9.0\CRM.Domain.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CRM\CRM.Application\bin\Debug\net9.0\CRM.Domain.pdb
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CRM\CRM.Application\obj\Debug\net9.0\CRM.Application.csproj.AssemblyReference.cache
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CRM\CRM.Application\obj\Debug\net9.0\CRM.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CRM\CRM.Application\obj\Debug\net9.0\CRM.Application.AssemblyInfoInputs.cache
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CRM\CRM.Application\obj\Debug\net9.0\CRM.Application.AssemblyInfo.cs
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CRM\CRM.Application\obj\Debug\net9.0\CRM.Application.csproj.CoreCompileInputs.cache
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CRM\CRM.Application\obj\Debug\net9.0\CRM.Application.sourcelink.json
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CRM\CRM.Application\obj\Debug\net9.0\CRM.Appl.F64C2975.Up2Date
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CRM\CRM.Application\obj\Debug\net9.0\CRM.Application.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CRM\CRM.Application\obj\Debug\net9.0\refint\CRM.Application.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CRM\CRM.Application\obj\Debug\net9.0\CRM.Application.pdb
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CRM\CRM.Application\obj\Debug\net9.0\ref\CRM.Application.dll

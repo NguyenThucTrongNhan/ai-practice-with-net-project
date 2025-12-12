@@ -16,8 +16,4 @@
     <PackageReference Include="MediatR" Version="14.0.0" />
     <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.0" />
   </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\InventoryService.Domain\InventoryService.Domain.csproj" />
-  </ItemGroup>
 </Project>

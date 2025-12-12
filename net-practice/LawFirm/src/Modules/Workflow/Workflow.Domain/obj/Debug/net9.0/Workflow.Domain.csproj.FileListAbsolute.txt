@@ -1,0 +1,12 @@
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Workflow\Workflow.Domain\bin\Debug\net9.0\Workflow.Domain.deps.json
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Workflow\Workflow.Domain\bin\Debug\net9.0\Workflow.Domain.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Workflow\Workflow.Domain\bin\Debug\net9.0\Workflow.Domain.pdb
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Workflow\Workflow.Domain\obj\Debug\net9.0\Workflow.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Workflow\Workflow.Domain\obj\Debug\net9.0\Workflow.Domain.AssemblyInfoInputs.cache
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Workflow\Workflow.Domain\obj\Debug\net9.0\Workflow.Domain.AssemblyInfo.cs
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Workflow\Workflow.Domain\obj\Debug\net9.0\Workflow.Domain.csproj.CoreCompileInputs.cache
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Workflow\Workflow.Domain\obj\Debug\net9.0\Workflow.Domain.sourcelink.json
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Workflow\Workflow.Domain\obj\Debug\net9.0\Workflow.Domain.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Workflow\Workflow.Domain\obj\Debug\net9.0\refint\Workflow.Domain.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Workflow\Workflow.Domain\obj\Debug\net9.0\Workflow.Domain.pdb
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\Workflow\Workflow.Domain\obj\Debug\net9.0\ref\Workflow.Domain.dll

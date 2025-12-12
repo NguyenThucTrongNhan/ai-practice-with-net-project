@@ -1,0 +1,16 @@
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CaseManagement\CaseManagement.Infrastructure\bin\Debug\net9.0\CaseManagement.Infrastructure.deps.json
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CaseManagement\CaseManagement.Infrastructure\bin\Debug\net9.0\CaseManagement.Infrastructure.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CaseManagement\CaseManagement.Infrastructure\bin\Debug\net9.0\CaseManagement.Infrastructure.pdb
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CaseManagement\CaseManagement.Infrastructure\bin\Debug\net9.0\CaseManagement.Domain.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CaseManagement\CaseManagement.Infrastructure\bin\Debug\net9.0\CaseManagement.Domain.pdb
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CaseManagement\CaseManagement.Infrastructure\obj\Debug\net9.0\CaseManagement.Infrastructure.csproj.AssemblyReference.cache
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CaseManagement\CaseManagement.Infrastructure\obj\Debug\net9.0\CaseManagement.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CaseManagement\CaseManagement.Infrastructure\obj\Debug\net9.0\CaseManagement.Infrastructure.AssemblyInfoInputs.cache
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CaseManagement\CaseManagement.Infrastructure\obj\Debug\net9.0\CaseManagement.Infrastructure.AssemblyInfo.cs
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CaseManagement\CaseManagement.Infrastructure\obj\Debug\net9.0\CaseManagement.Infrastructure.csproj.CoreCompileInputs.cache
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CaseManagement\CaseManagement.Infrastructure\obj\Debug\net9.0\CaseManagement.Infrastructure.sourcelink.json
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CaseManagement\CaseManagement.Infrastructure\obj\Debug\net9.0\CaseMana.7F4DECB0.Up2Date
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CaseManagement\CaseManagement.Infrastructure\obj\Debug\net9.0\CaseManagement.Infrastructure.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CaseManagement\CaseManagement.Infrastructure\obj\Debug\net9.0\refint\CaseManagement.Infrastructure.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CaseManagement\CaseManagement.Infrastructure\obj\Debug\net9.0\CaseManagement.Infrastructure.pdb
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\CaseManagement\CaseManagement.Infrastructure\obj\Debug\net9.0\ref\CaseManagement.Infrastructure.dll

@@ -1,0 +1,16 @@
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\HR\HR.Infrastructure\bin\Debug\net9.0\HR.Infrastructure.deps.json
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\HR\HR.Infrastructure\bin\Debug\net9.0\HR.Infrastructure.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\HR\HR.Infrastructure\bin\Debug\net9.0\HR.Infrastructure.pdb
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\HR\HR.Infrastructure\bin\Debug\net9.0\HR.Domain.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\HR\HR.Infrastructure\bin\Debug\net9.0\HR.Domain.pdb
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\HR\HR.Infrastructure\obj\Debug\net9.0\HR.Infrastructure.csproj.AssemblyReference.cache
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\HR\HR.Infrastructure\obj\Debug\net9.0\HR.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\HR\HR.Infrastructure\obj\Debug\net9.0\HR.Infrastructure.AssemblyInfoInputs.cache
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\HR\HR.Infrastructure\obj\Debug\net9.0\HR.Infrastructure.AssemblyInfo.cs
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\HR\HR.Infrastructure\obj\Debug\net9.0\HR.Infrastructure.csproj.CoreCompileInputs.cache
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\HR\HR.Infrastructure\obj\Debug\net9.0\HR.Infrastructure.sourcelink.json
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\HR\HR.Infrastructure\obj\Debug\net9.0\HR.Infra.8B65738F.Up2Date
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\HR\HR.Infrastructure\obj\Debug\net9.0\HR.Infrastructure.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\HR\HR.Infrastructure\obj\Debug\net9.0\refint\HR.Infrastructure.dll
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\HR\HR.Infrastructure\obj\Debug\net9.0\HR.Infrastructure.pdb
+D:\2025\Projects\ai-practice-with-net-project\net-practice\LawFirm\src\Modules\HR\HR.Infrastructure\obj\Debug\net9.0\ref\HR.Infrastructure.dll
